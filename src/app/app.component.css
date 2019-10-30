@@ -1,3 +1,14 @@
-p {
-  font-family: Lato;
+.loading-circle{
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+
+}
+
+.loading-circle:after{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 5px solid #ffff00;
+ /* animation: loading-circle 1.2s linear infinite;*/
 }
